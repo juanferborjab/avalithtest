@@ -28,10 +28,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.Avalith.test.Repository.TechnologieRepository;
 
-/**
- *
- * @author LENOVO
- */
+
 @RestController
 @RequestMapping("/developers")
 public class DeveloperController {
