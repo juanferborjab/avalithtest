@@ -9,10 +9,7 @@ import com.Avalith.test.entity.Technologies;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- *
- * @author juanfernandoborjabrito
- */
+
 public interface TechnologieRepository extends JpaRepository<Technologies, Long> {
     Technologies findBytecnologia(String tecnologia);
 }

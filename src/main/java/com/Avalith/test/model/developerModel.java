@@ -5,10 +5,7 @@
  */
 package com.Avalith.test.model;
 import java.util.List;
-/**
- *
- * @author juanfernandoborjabrito
- */
+
 
 
 public class developerModel {

@@ -17,10 +17,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
-/**
- *
- * @author juanfernandoborjabrito
- */
+
 @Entity
 @Table(name = "Technologies")
 public class Technologies {
