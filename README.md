@@ -19,13 +19,13 @@ This application has two endpoints:
 	
 	DeveloperController
 	It handles a GET request for the /developers endpoint.
-		The @PutMapping annotation for maps "/developers/{id}" HTTP PUT 			requests in a specific controller method - updateDeveloper :("/{id}”).
+		The @PutMapping annotation for maps "/developers/{id}" HTTP PUT requests in a specific controller method - updateDeveloper :("/{id}”).
 
-		The @GetMapping annotation for HTTP GET requests for maps "/developers" 		in a specific controller method: allDevelopers.
+		The @GetMapping annotation for HTTP GET requests for maps "/developers" in a specific controller method: allDevelopers.
 
-		The @PostMapping annotation for maps "/developers" HTTP POST requests in 		a specific handler method: createDeveloper.
+		The @PostMapping annotation for maps "/developers" HTTP POST requests in a specific handler method: createDeveloper.
 
-		The @DeleteMapping annotation for HTTP DELETE "/ developers/{id}" map 			requests in a specific controller method: deleteDeveloper :("/{id}”).
+		The @DeleteMapping annotation for HTTP DELETE "/ developers/{id}" map requests in a specific controller method: deleteDeveloper :("/{id}”).
 
 
 
