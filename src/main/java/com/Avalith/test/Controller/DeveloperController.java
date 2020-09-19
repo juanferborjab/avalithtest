@@ -78,7 +78,7 @@ public class DeveloperController {
     }
     
     @GetMapping
-    public List<Developer> allPedidos() {
+    public List<Developer> allDevelopers() {
         return developerRepository.findAll();
     }
     
@@ -122,7 +122,7 @@ public class DeveloperController {
     }
     
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteClient(@PathVariable(value = "id") Long id) {
+    public ResponseEntity<?> deleteDeveloper(@PathVariable(value = "id") Long id) {
         Developer d = developerRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Developer", "id", id));
 

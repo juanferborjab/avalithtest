@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/tecnologias")
+@RequestMapping("/technologies")
 public class TechnologieController {
     
     @Autowired
     private TechnologieRepository tecnologiaRepository;
 
     @PostMapping
-    public Technologies createDeveloper(@Valid @RequestBody Technologies tecnologia) {
+    public Technologies createTechnologie(@Valid @RequestBody Technologies tecnologia) {
         
         
         
