@@ -6,18 +6,18 @@ Introduction
 
 This REST API was developed whit Spring Framework.
 
-The solution allow do  a CRUD of Developers and the technologies they know it.
+The solution allows to develop the CRUD of Developers and the technologies they know it.
 
 
 REST ENDPOINT 
 
 In Spring, REST endpoints are Spring MVC controllers.
 
-This application have two endpoints:
+This application has two endpoints:
 
 	
 	DeveloperController
-	Handles a GET request for the /developers endpoint.
+	It handles a GET request for the /developers endpoint.
 		The @PutMapping annotation for maps "/developers/{id}" HTTP PUT 			requests in a specific controller method - updateDeveloper :("/{id}”).
 
 		The @GetMapping annotation for HTTP GET requests for maps "/developers" 		in a specific controller method: allDevelopers.
@@ -26,13 +26,11 @@ This application have two endpoints:
 
 		The @DeleteMapping annotation for HTTP DELETE "/ developers/{id}" map 			requests in a specific controller method: deleteDeveloper :("/{id}”).
 
-	TechnologieController
-	Handles a GET request for the /technologies endpoint.
-		The @PostMapping annotation for maps "/technologies" HTTP POST requests in 		a specific handler method: createTechnologie.
+	
 
 
 DATABASE:
-The database is running in Heroku, for this application used to Postgres.
+The database is running in Heroku. Postgres was used for developing this application.
 The schema of database contains:
 	-developer
 	-developer_technologies 
