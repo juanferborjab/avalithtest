@@ -46,3 +46,7 @@ docker build -t developerapp .
 docker run -p 8080:8080 -t developerapp --env PORT=‘5000’ SPRING_DATASOURCE_URL='postgres://gtwloesbdexwpl:d977fdf909e9927c1a0ec7b3f74d818578caede50169c0280a877299f963d78f@ec2-3-214-46-194.compute-1.amazonaws.com:5432/d7f9asgehjn9g5'
 SPRING_DATASOURCE_USERNAME='d7f9asgehjn9g5’
 SPRING_DATASOURCE_PASSWORD='d977fdf909e9927c1a0ec7b3f74d818578caede50169c0280a877299f963d78f’
+
+Note: The application has configured a global variable ( JAVA_OPTS ), for handle the increase or decrease memory in HEROKU.
+
+
