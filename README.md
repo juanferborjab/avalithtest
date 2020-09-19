@@ -14,8 +14,6 @@ REST ENDPOINT
 
 In Spring, REST endpoints are Spring MVC controllers.
 
-This application has two endpoints:
-
 	
 	DeveloperController
 	It handles a GET request for the /developers endpoint.
